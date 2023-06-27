@@ -1,0 +1,53 @@
+Knowledge Transfer
+How the build and deploy works, what accounts are used in the process (there are usually accounts that are for machine to machine interfacing), where is the documentation, get with the PO and get a few overviews of the app (if you're just the junior no need, KT implies you're taking some ownership).
+
+Code and architectural overviews. Any paint points that may come up. Who are some good contacts or wiki sites if things go wrong.
+
+Basically cover your ass. If this person is gone and something comes up, you want to be prepared or at least can find someone for help, if you don't already have an established network.
+
+
+
+
+
+Architecture and service definitions for all apis that the client app consumes/location of api services and code base repository for those as well.
+
+
+
+
+
+What big libs are used
+
+Is the project of imperative nature or declarative? Does it use rxjs/ngrx?
+
+Heavy use of self build components/libs?
+
+Using nx or not?
+
+Any running issues or big past issues that you need to know of
+
+How many different environments do you use?
+
+Any unfulfilled plans than you want me to continue?
+
+What parts/modules would you refactor?
+
+What angular version is it based on?
+
+How does the team organise reviews?
+
+What caching strategy ie idb/localstorage/inmemory/cookies if any do you use?
+
+
+
+
+
+
+Will they still be on the project or are they leaving?
+
+If they are staying then you don't really need to be too specific.
+
+But in the end its best to know about the architecture and build process and also if the use server side rendering. They need to show you the important parts of the application and if they have something custom (build process, schematics and such).
+
+Asking questions about what packages they use or the versions of them is kinda useless as you can see it from the package.json.
+
+Basically just go through the code and ask them if you don't understand something. Also tell them to write some documentation (if they don't have it), about things like deployment IP, CI/CD and such
