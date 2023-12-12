@@ -1,0 +1,19 @@
+Five Lines of Code
+How and When to Refactor
+Clausen, Christian
+Christian Clausen
+https://github.com/thedrlambda/five-lines
+https://github.com/thedrlambda/five-lines/tree/solution
+
+
+
+Law of Demeter
+principle of least knowledge
+loose coupling
+
+Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
+Each unit should only talk to its friends; don't talk to strangers.
+Only talk to your immediate friends.
+
+collection of katas that helps explain the Law of Demeter 
+https://github.com/Neppord/FantasyBattle-Refactoring-Kata
